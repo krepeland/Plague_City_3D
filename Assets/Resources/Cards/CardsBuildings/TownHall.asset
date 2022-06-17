@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ef6341888c4b544a3226a1a04e11ec, type: 3}
+  m_Name: TownHall
+  m_EditorClassIdentifier: 
+  CardName: Town Hall
+  PrefabName: TownHall
+  BuildingPositions:
+  - {x: -1, y: 0}
+  - {x: 0, y: 0}
+  - {x: 1, y: 0}
+  - {x: -1, y: -1}
+  - {x: 0, y: -1}
+  - {x: 1, y: -1}
+  - {x: -1, y: 1}
+  - {x: 0, y: 1}
+  - {x: 1, y: 1}
+  - {x: -1, y: 2}
+  - {x: 0, y: 2}
+  - {x: 1, y: 2}
+  - {x: -1, y: -2}
+  - {x: 0, y: -2}
+  - {x: 1, y: -2}
+  IsConnectingToRoad: 1
+  IsUnitsCanWalkThrough: 1
+  IsCanBePlacedOnEarth: 1
+  IsCanBePlacedOnWater: 0
+  IsCanBePlacedOnlyOnRoad: 0
+  CanReplaceBuildingsTypes: 02000000
+  BuildingInfoSprite: {fileID: 21300000, guid: 8bb85e1fd43659148b0b2b97b345fb74, type: 3}
+  prefab_placedBuilding: {fileID: 8998493491790312601, guid: 69699515d4090fe4eac3bcf693ec553f, type: 3}
+  prefab_preview: {fileID: 13303302118384584, guid: f290822c71b33554ca45aedf9986edb3, type: 3}

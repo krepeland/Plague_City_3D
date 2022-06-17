@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86f85a95811101f4887f5fb203339f8a, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  ActionType: 1
+  Sprite: {fileID: -7612346182868026374, guid: 34695a3c8f59b8e4e91b6bbb9e2f6da7, type: 3}
+  SpriteOutline: {fileID: 1559630475088692541, guid: 34695a3c8f59b8e4e91b6bbb9e2f6da7, type: 3}

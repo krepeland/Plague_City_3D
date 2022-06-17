@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43c8b9a9bca77814097a5628733ece21, type: 3}
+  m_Name: Infection_Settings
+  m_EditorClassIdentifier: 
+  TimeToDeathSample: 18
+  TimeToDeathRandom: 6
+  PowerPerTick: 10
+  PowerPerInfectedHouse: 2
+  InfectionSkillBase:
+  - InfectionSkillBase: {fileID: -8906914493132976859, guid: f464a956d2fe3fe4a8e763eb72916eca, type: 3}
+    TicksTillUnlockingSKill: 0
+  - InfectionSkillBase: {fileID: -2270327956803320890, guid: a4045186204e35e4eba3cbd659565499, type: 3}
+    TicksTillUnlockingSKill: 1

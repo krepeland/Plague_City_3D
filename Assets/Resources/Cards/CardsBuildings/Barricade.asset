@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ef6341888c4b544a3226a1a04e11ec, type: 3}
+  m_Name: Barricade
+  m_EditorClassIdentifier: 
+  CardName: Barricade
+  PrefabName: Barricade
+  BuildingPositions:
+  - {x: 0, y: 0}
+  IsConnectingToRoad: 0
+  IsUnitsCanWalkThrough: 1
+  IsCanBePlacedOnEarth: 1
+  IsCanBePlacedOnWater: 0
+  IsCanBePlacedOnlyOnRoad: 1
+  CanReplaceBuildingsTypes: 01000000
+  BuildingInfoSprite: {fileID: 0}
+  prefab_placedBuilding: {fileID: 4871792358839439300, guid: f62d638baeceaac42bda64b696435250, type: 3}
+  prefab_preview: {fileID: 4064641264007399490, guid: df756026542d65f4788df24e15246bff, type: 3}

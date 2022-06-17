@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7238bb90d1b1874384ef028598ed984, type: 3}
+  m_Name: Doctor
+  m_EditorClassIdentifier: 
+  CardName: Doctor
+  ResourcesRequired:
+  - Resource: 2
+    Count: 1
+  - Resource: 0
+    Count: 100
+  - Resource: 1
+    Count: 100
+  IsCanBeSold: 1
+  ResourcesFromSold:
+  - Resource: 2
+    Count: 1
+  - Resource: 0
+    Count: 50
+  BuildingsRequired: []
+  UnlockedSprite: {fileID: 0}
+  LockedSprite: {fileID: 0}
+  IsShowInShop: 0
+  priority: 0
